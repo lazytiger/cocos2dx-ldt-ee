@@ -1,0 +1,1 @@
+/home/hoping/Programs/Golang/workspace/cocos2dx-completion/src/main.go
