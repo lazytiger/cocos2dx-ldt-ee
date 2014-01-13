@@ -403,4 +403,3 @@
 -- @function [parent=#global] require
 -- @param #string modname name of module to load.
 
-return nil
