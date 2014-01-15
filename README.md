@@ -1,6 +1,7 @@
 ## How to use?
 
 1. compile the main.go using golang, and put the executable file main to this directory.
+
 2. you should fix some problem in cocos2dx/tools/tolua++/*.pkg. 
 
 	As I know, there are such problems:
@@ -13,6 +14,7 @@
 	2.3 constructor/destructor - remove these things
 
 3. open pack.sh and modify the `pkg_root` params to your directory
+
 4. ./pack.sh you will get cocos2dx-2.2.1.zip
 
 ## For conveniece
