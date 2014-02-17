@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCActionEase] create
+-- @param self
 -- @param CCActionInterval#CCActionInterval pAction
 -- @return #CCActionEase
 
@@ -38,6 +39,7 @@
 
 --------------------------------
 -- @function [parent=#CCActionEase] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

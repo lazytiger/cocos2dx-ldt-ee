@@ -13,6 +13,7 @@
 
 --------------------------------
 -- @function [parent=#CCTargetedAction] create
+-- @param self
 -- @param CCNode#CCNode pTarget
 -- @param CCFiniteTimeAction#CCFiniteTimeAction pAction
 -- @return #CCTargetedAction
@@ -44,6 +45,7 @@
 
 --------------------------------
 -- @function [parent=#CCTargetedAction] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

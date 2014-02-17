@@ -175,11 +175,13 @@
 
 --------------------------------
 -- @function [parent=#CCTMXMapInfo] formatWithTMXFile
+-- @param self
 -- @param #char tmxFile
 -- @return #CCTMXMapInfo
 
 --------------------------------
 -- @function [parent=#CCTMXMapInfo] formatWithXML
+-- @param self
 -- @param #char tmxString
 -- @param #char resourcePath
 -- @return #CCTMXMapInfo

@@ -483,6 +483,7 @@
 
 --------------------------------
 -- @function [parent=#CCParticleSystem] create
+-- @param self
 -- @param #char plistFile
 -- @return #CCParticleSystem
 
@@ -962,6 +963,7 @@
 
 --------------------------------
 -- @function [parent=#CCParticleSystem] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

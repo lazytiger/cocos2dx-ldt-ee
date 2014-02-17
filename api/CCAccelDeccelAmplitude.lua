@@ -18,6 +18,7 @@
 
 --------------------------------
 -- @function [parent=#CCAccelDeccelAmplitude] create
+-- @param self
 -- @param CCAction#CCAction pAction
 -- @param #float duration
 -- @return #CCAccelDeccelAmplitude
@@ -49,6 +50,7 @@
 
 --------------------------------
 -- @function [parent=#CCAccelDeccelAmplitude] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

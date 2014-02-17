@@ -3,24 +3,28 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionProgressRadialCW] create
+-- @param self
 -- @param #float t
 -- @param CCScene#CCScene scene
 -- @return #CCTransitionProgressRadialCW
 
 --------------------------------
 -- @function [parent=#CCTransitionProgressRadialCW] create
+-- @param self
 -- @param #float t
 -- @param CCScene#CCScene scene
 -- @return CCTransitionProgress#CCTransitionProgress
 
 --------------------------------
 -- @function [parent=#CCTransitionProgressRadialCW] create
+-- @param self
 -- @param #float t
 -- @param CCScene#CCScene scene
 -- @return CCTransitionScene#CCTransitionScene
 
 --------------------------------
 -- @function [parent=#CCTransitionProgressRadialCW] create
+-- @param self
 -- @return CCScene#CCScene
 
 --------------------------------
@@ -499,6 +503,7 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionProgressRadialCW] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

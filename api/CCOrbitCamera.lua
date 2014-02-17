@@ -10,6 +10,7 @@
 
 --------------------------------
 -- @function [parent=#CCOrbitCamera] create
+-- @param self
 -- @param #float t
 -- @param #float radius
 -- @param #float deltaRadius
@@ -56,6 +57,7 @@
 
 --------------------------------
 -- @function [parent=#CCOrbitCamera] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

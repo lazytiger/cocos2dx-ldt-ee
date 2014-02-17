@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCCatmullRomTo] create
+-- @param self
 -- @param #float dt
 -- @param CCPointArray#CCPointArray points
 -- @return #CCCatmullRomTo
@@ -24,6 +25,7 @@
 
 --------------------------------
 -- @function [parent=#CCCatmullRomTo] create
+-- @param self
 -- @param #float duration
 -- @param CCPointArray#CCPointArray points
 -- @param #float tension
@@ -56,6 +58,7 @@
 
 --------------------------------
 -- @function [parent=#CCCatmullRomTo] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

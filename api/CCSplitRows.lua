@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCSplitRows] create
+-- @param self
 -- @param #float duration
 -- @param #int nRows
 -- @return #CCSplitRows
@@ -42,6 +43,7 @@
 
 --------------------------------
 -- @function [parent=#CCSplitRows] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return CCGridAction#CCGridAction
@@ -73,6 +75,7 @@
 
 --------------------------------
 -- @function [parent=#CCSplitRows] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

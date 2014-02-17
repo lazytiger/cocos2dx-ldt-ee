@@ -21,6 +21,7 @@
 
 --------------------------------
 -- @function [parent=#CCShuffleTiles] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @param #int seed
@@ -61,6 +62,7 @@
 
 --------------------------------
 -- @function [parent=#CCShuffleTiles] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return CCGridAction#CCGridAction
@@ -92,6 +94,7 @@
 
 --------------------------------
 -- @function [parent=#CCShuffleTiles] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCFadeTo] create
+-- @param self
 -- @param #float duration
 -- @param #GLubyte opacity
 -- @return #CCFadeTo
@@ -34,6 +35,7 @@
 
 --------------------------------
 -- @function [parent=#CCFadeTo] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

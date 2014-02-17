@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCScene] create
+-- @param self
 -- @return #CCScene
 
 --------------------------------
@@ -481,6 +482,7 @@
 
 --------------------------------
 -- @function [parent=#CCScene] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

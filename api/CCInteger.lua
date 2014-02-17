@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCInteger] create
+-- @param self
 -- @param #int v
 -- @return #CCInteger
 

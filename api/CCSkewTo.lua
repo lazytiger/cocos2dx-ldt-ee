@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCSkewTo] create
+-- @param self
 -- @param #float t
 -- @param #float sx
 -- @param #float sy
@@ -35,6 +36,7 @@
 
 --------------------------------
 -- @function [parent=#CCSkewTo] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

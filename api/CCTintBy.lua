@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCTintBy] create
+-- @param self
 -- @param #float duration
 -- @param #GLshort deltaRed
 -- @param #GLshort deltaGreen
@@ -41,6 +42,7 @@
 
 --------------------------------
 -- @function [parent=#CCTintBy] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

@@ -12,6 +12,7 @@
 
 --------------------------------
 -- @function [parent=#CCControlSwitch] create
+-- @param self
 -- @param CCSprite#CCSprite maskSprite
 -- @param CCSprite#CCSprite onSprite
 -- @param CCSprite#CCSprite offSprite
@@ -31,6 +32,7 @@
 
 --------------------------------
 -- @function [parent=#CCControlSwitch] create
+-- @param self
 -- @param CCSprite#CCSprite maskSprite
 -- @param CCSprite#CCSprite onSprite
 -- @param CCSprite#CCSprite offSprite

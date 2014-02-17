@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCTintTo] create
+-- @param self
 -- @param #float duration
 -- @param #GLubyte red
 -- @param #GLubyte green
@@ -36,6 +37,7 @@
 
 --------------------------------
 -- @function [parent=#CCTintTo] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

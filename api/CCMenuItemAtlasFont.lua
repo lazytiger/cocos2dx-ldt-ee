@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCMenuItemAtlasFont] create
+-- @param self
 -- @param #char value
 -- @param #char charMapFile
 -- @param #int itemWidth
@@ -84,6 +85,7 @@
 
 --------------------------------
 -- @function [parent=#CCMenuItemAtlasFont] create
+-- @param self
 -- @param CCNode#CCNode label
 -- @return CCMenuItemLabel#CCMenuItemLabel
 

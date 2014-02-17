@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCShow] create
+-- @param self
 -- @return #CCShow
 
 --------------------------------

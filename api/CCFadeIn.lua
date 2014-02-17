@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCFadeIn] create
+-- @param self
 -- @param #float d
 -- @return #CCFadeIn
 
@@ -38,6 +39,7 @@
 
 --------------------------------
 -- @function [parent=#CCFadeIn] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

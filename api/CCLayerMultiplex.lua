@@ -18,15 +18,18 @@
 
 --------------------------------
 -- @function [parent=#CCLayerMultiplex] createWithArray
+-- @param self
 -- @param CCArray#CCArray arrayOfLayers
 -- @return #CCLayerMultiplex
 
 --------------------------------
 -- @function [parent=#CCLayerMultiplex] create
+-- @param self
 -- @return #CCLayerMultiplex
 
 --------------------------------
 -- @function [parent=#CCLayerMultiplex] createWithLayer
+-- @param self
 -- @param CCLayer#CCLayer layer
 -- @return #CCLayerMultiplex
 
@@ -112,6 +115,7 @@
 
 --------------------------------
 -- @function [parent=#CCLayerMultiplex] create
+-- @param self
 -- @return CCLayer#CCLayer
 
 --------------------------------
@@ -590,6 +594,7 @@
 
 --------------------------------
 -- @function [parent=#CCLayerMultiplex] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

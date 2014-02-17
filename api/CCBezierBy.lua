@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCBezierBy] create
+-- @param self
 -- @param #float t
 -- @param #ccBezierConfig c
 -- @return #CCBezierBy
@@ -39,6 +40,7 @@
 
 --------------------------------
 -- @function [parent=#CCBezierBy] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

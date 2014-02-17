@@ -23,6 +23,7 @@
 
 --------------------------------
 -- @function [parent=#CCWaves] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @param #int waves
@@ -66,6 +67,7 @@
 
 --------------------------------
 -- @function [parent=#CCWaves] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return CCGridAction#CCGridAction
@@ -97,6 +99,7 @@
 
 --------------------------------
 -- @function [parent=#CCWaves] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

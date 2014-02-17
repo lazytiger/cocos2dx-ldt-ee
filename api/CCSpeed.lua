@@ -23,6 +23,7 @@
 
 --------------------------------
 -- @function [parent=#CCSpeed] create
+-- @param self
 -- @param CCActionInterval#CCActionInterval pAction
 -- @param #float fRate
 -- @return #CCSpeed

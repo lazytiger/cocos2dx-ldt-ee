@@ -33,6 +33,7 @@
 
 --------------------------------
 -- @function [parent=#CCRipple3D] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @param CCPoint#CCPoint position
@@ -76,6 +77,7 @@
 
 --------------------------------
 -- @function [parent=#CCRipple3D] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return CCGridAction#CCGridAction
@@ -107,6 +109,7 @@
 
 --------------------------------
 -- @function [parent=#CCRipple3D] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

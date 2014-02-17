@@ -38,6 +38,7 @@
 
 --------------------------------
 -- @function [parent=#CCActionCamera] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

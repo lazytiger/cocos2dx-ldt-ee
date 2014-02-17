@@ -265,38 +265,45 @@
 
 --------------------------------
 -- @function [parent=#CCSprite] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D pTexture
 -- @return #CCSprite
 
 --------------------------------
 -- @function [parent=#CCSprite] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D pTexture
 -- @param CCRect#CCRect rect
 -- @return #CCSprite
 
 --------------------------------
 -- @function [parent=#CCSprite] createWithSpriteFrame
+-- @param self
 -- @param CCSpriteFrame#CCSpriteFrame pSpriteFrame
 -- @return #CCSprite
 
 --------------------------------
 -- @function [parent=#CCSprite] createWithSpriteFrameName
+-- @param self
 -- @param #char pszSpriteFrameName
 -- @return #CCSprite
 
 --------------------------------
 -- @function [parent=#CCSprite] create
+-- @param self
 -- @param #char pszFileName
 -- @param CCRect#CCRect rect
 -- @return #CCSprite
 
 --------------------------------
 -- @function [parent=#CCSprite] create
+-- @param self
 -- @param #char pszFileName
 -- @return #CCSprite
 
 --------------------------------
 -- @function [parent=#CCSprite] create
+-- @param self
 -- @return #CCSprite
 
 --------------------------------

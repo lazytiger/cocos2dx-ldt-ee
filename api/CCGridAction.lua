@@ -13,6 +13,7 @@
 
 --------------------------------
 -- @function [parent=#CCGridAction] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return #CCGridAction
@@ -44,6 +45,7 @@
 
 --------------------------------
 -- @function [parent=#CCGridAction] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

@@ -18,6 +18,7 @@
 
 --------------------------------
 -- @function [parent=#CCAnimate] create
+-- @param self
 -- @param CCAnimation#CCAnimation pAnimation
 -- @return #CCAnimate
 
@@ -48,6 +49,7 @@
 
 --------------------------------
 -- @function [parent=#CCAnimate] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

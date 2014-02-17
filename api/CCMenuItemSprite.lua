@@ -76,6 +76,7 @@
 
 --------------------------------
 -- @function [parent=#CCMenuItemSprite] create
+-- @param self
 -- @param CCNode#CCNode normalSprite
 -- @param CCNode#CCNode selectedSprite
 -- @param CCNode#CCNode disabledSprite
@@ -83,6 +84,7 @@
 
 --------------------------------
 -- @function [parent=#CCMenuItemSprite] create
+-- @param self
 -- @param CCNode#CCNode normalSprite
 -- @param CCNode#CCNode selectedSprite
 -- @return #CCMenuItemSprite

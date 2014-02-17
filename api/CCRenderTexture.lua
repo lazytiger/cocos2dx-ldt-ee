@@ -84,6 +84,7 @@
 
 --------------------------------
 -- @function [parent=#CCRenderTexture] create
+-- @param self
 -- @param #int w
 -- @param #int h
 -- @param CCTexture2DPixelFormat#CCTexture2DPixelFormat eFormat
@@ -92,6 +93,7 @@
 
 --------------------------------
 -- @function [parent=#CCRenderTexture] create
+-- @param self
 -- @param #int w
 -- @param #int h
 -- @param CCTexture2DPixelFormat#CCTexture2DPixelFormat eFormat
@@ -99,6 +101,7 @@
 
 --------------------------------
 -- @function [parent=#CCRenderTexture] create
+-- @param self
 -- @param #int w
 -- @param #int h
 -- @return #CCRenderTexture
@@ -579,6 +582,7 @@
 
 --------------------------------
 -- @function [parent=#CCRenderTexture] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

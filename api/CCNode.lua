@@ -477,6 +477,7 @@
 
 --------------------------------
 -- @function [parent=#CCNode] create
+-- @param self
 -- @return #CCNode
 
 --------------------------------

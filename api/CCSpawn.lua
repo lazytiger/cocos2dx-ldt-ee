@@ -8,12 +8,14 @@
 
 --------------------------------
 -- @function [parent=#CCSpawn] createWithTwoActions
+-- @param self
 -- @param CCFiniteTimeAction#CCFiniteTimeAction pAction1
 -- @param CCFiniteTimeAction#CCFiniteTimeAction pAction2
 -- @return #CCSpawn
 
 --------------------------------
 -- @function [parent=#CCSpawn] create
+-- @param self
 -- @param CCArray#CCArray actions
 -- @return #CCSpawn
 
@@ -44,6 +46,7 @@
 
 --------------------------------
 -- @function [parent=#CCSpawn] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

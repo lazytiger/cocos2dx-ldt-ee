@@ -83,6 +83,7 @@
 
 --------------------------------
 -- @function [parent=#CCLayer] create
+-- @param self
 -- @return #CCLayer
 
 --------------------------------
@@ -561,6 +562,7 @@
 
 --------------------------------
 -- @function [parent=#CCLayer] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

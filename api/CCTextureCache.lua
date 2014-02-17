@@ -50,13 +50,16 @@
 
 --------------------------------
 -- @function [parent=#CCTextureCache] sharedTextureCache
+-- @param self
 -- @return #CCTextureCache
 
 --------------------------------
 -- @function [parent=#CCTextureCache] reloadAllTextures
+-- @param self
 
 --------------------------------
 -- @function [parent=#CCTextureCache] purgeSharedTextureCache
+-- @param self
 
 --------------------------------
 -- @function [parent=#CCTextureCache] release

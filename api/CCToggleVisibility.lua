@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCToggleVisibility] create
+-- @param self
 -- @return #CCToggleVisibility
 
 --------------------------------

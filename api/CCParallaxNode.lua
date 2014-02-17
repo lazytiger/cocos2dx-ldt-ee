@@ -33,6 +33,7 @@
 
 --------------------------------
 -- @function [parent=#CCParallaxNode] create
+-- @param self
 -- @return #CCParallaxNode
 
 --------------------------------
@@ -511,6 +512,7 @@
 
 --------------------------------
 -- @function [parent=#CCParallaxNode] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

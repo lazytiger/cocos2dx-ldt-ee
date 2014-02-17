@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCMoveTo] create
+-- @param self
 -- @param #float duration
 -- @param CCPoint#CCPoint position
 -- @return #CCMoveTo
@@ -34,6 +35,7 @@
 
 --------------------------------
 -- @function [parent=#CCMoveTo] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

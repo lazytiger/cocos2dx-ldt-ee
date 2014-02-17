@@ -63,6 +63,7 @@
 
 --------------------------------
 -- @function [parent=#CCLayerGradient] create
+-- @param self
 -- @param #ccColor4B start
 -- @param #ccColor4B end
 -- @param CCPoint#CCPoint v
@@ -70,12 +71,14 @@
 
 --------------------------------
 -- @function [parent=#CCLayerGradient] create
+-- @param self
 -- @param #ccColor4B start
 -- @param #ccColor4B end
 -- @return #CCLayerGradient
 
 --------------------------------
 -- @function [parent=#CCLayerGradient] create
+-- @param self
 -- @return #CCLayerGradient
 
 --------------------------------
@@ -141,6 +144,7 @@
 
 --------------------------------
 -- @function [parent=#CCLayerGradient] create
+-- @param self
 -- @param #ccColor4B color
 -- @param #GLfloat width
 -- @param #GLfloat height
@@ -148,11 +152,13 @@
 
 --------------------------------
 -- @function [parent=#CCLayerGradient] create
+-- @param self
 -- @param #ccColor4B color
 -- @return CCLayerColor#CCLayerColor
 
 --------------------------------
 -- @function [parent=#CCLayerGradient] create
+-- @param self
 -- @return CCLayerRGBA#CCLayerRGBA
 
 --------------------------------

@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCEaseBackInOut] create
+-- @param self
 -- @param CCActionInterval#CCActionInterval pAction
 -- @return #CCEaseBackInOut
 
@@ -18,6 +19,7 @@
 
 --------------------------------
 -- @function [parent=#CCEaseBackInOut] create
+-- @param self
 -- @param CCActionInterval#CCActionInterval pAction
 -- @return CCActionEase#CCActionEase
 
@@ -48,6 +50,7 @@
 
 --------------------------------
 -- @function [parent=#CCEaseBackInOut] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

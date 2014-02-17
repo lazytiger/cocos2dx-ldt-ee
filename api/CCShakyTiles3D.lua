@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCShakyTiles3D] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @param #int nRange
@@ -44,6 +45,7 @@
 
 --------------------------------
 -- @function [parent=#CCShakyTiles3D] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return CCGridAction#CCGridAction
@@ -75,6 +77,7 @@
 
 --------------------------------
 -- @function [parent=#CCShakyTiles3D] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

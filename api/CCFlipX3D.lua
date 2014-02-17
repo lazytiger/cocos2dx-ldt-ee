@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCFlipX3D] create
+-- @param self
 -- @param #float duration
 -- @return #CCFlipX3D
 
@@ -41,6 +42,7 @@
 
 --------------------------------
 -- @function [parent=#CCFlipX3D] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return CCGridAction#CCGridAction
@@ -72,6 +74,7 @@
 
 --------------------------------
 -- @function [parent=#CCFlipX3D] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

@@ -113,6 +113,7 @@
 
 --------------------------------
 -- @function [parent=#CCControlSlider] create
+-- @param self
 -- @param #char bgFile
 -- @param #char progressFile
 -- @param #char thumbFile
@@ -120,6 +121,7 @@
 
 --------------------------------
 -- @function [parent=#CCControlSlider] create
+-- @param self
 -- @param CCSprite#CCSprite backgroundSprite
 -- @param CCSprite#CCSprite pogressSprite
 -- @param CCSprite#CCSprite thumbSprite

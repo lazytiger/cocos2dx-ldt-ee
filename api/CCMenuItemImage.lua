@@ -38,6 +38,7 @@
 
 --------------------------------
 -- @function [parent=#CCMenuItemImage] create
+-- @param self
 -- @param #char normalImage
 -- @param #char selectedImage
 -- @param #char disabledImage
@@ -45,12 +46,14 @@
 
 --------------------------------
 -- @function [parent=#CCMenuItemImage] create
+-- @param self
 -- @param #char normalImage
 -- @param #char selectedImage
 -- @return #CCMenuItemImage
 
 --------------------------------
 -- @function [parent=#CCMenuItemImage] create
+-- @param self
 -- @return #CCMenuItemImage
 
 --------------------------------
@@ -128,6 +131,7 @@
 
 --------------------------------
 -- @function [parent=#CCMenuItemImage] create
+-- @param self
 -- @param CCNode#CCNode normalSprite
 -- @param CCNode#CCNode selectedSprite
 -- @param CCNode#CCNode disabledSprite
@@ -135,6 +139,7 @@
 
 --------------------------------
 -- @function [parent=#CCMenuItemImage] create
+-- @param self
 -- @param CCNode#CCNode normalSprite
 -- @param CCNode#CCNode selectedSprite
 -- @return CCMenuItemSprite#CCMenuItemSprite

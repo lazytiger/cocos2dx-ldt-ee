@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCFlipY] create
+-- @param self
 -- @param #bool y
 -- @return #CCFlipY
 

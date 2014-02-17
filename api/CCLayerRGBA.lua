@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCLayerRGBA] create
+-- @param self
 -- @return #CCLayerRGBA
 
 --------------------------------

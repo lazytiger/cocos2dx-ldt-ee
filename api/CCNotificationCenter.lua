@@ -3,10 +3,12 @@
 
 --------------------------------
 -- @function [parent=#CCNotificationCenter] sharedNotificationCenter
+-- @param self
 -- @return #CCNotificationCenter
 
 --------------------------------
 -- @function [parent=#CCNotificationCenter] purgeNotificationCenter
+-- @param self
 
 --------------------------------
 -- @function [parent=#CCNotificationCenter] removeAllObservers

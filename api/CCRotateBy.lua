@@ -8,12 +8,14 @@
 
 --------------------------------
 -- @function [parent=#CCRotateBy] create
+-- @param self
 -- @param #float duration
 -- @param #float fDeltaAngle
 -- @return #CCRotateBy
 
 --------------------------------
 -- @function [parent=#CCRotateBy] create
+-- @param self
 -- @param #float duration
 -- @param #float fDeltaAngleX
 -- @param #float DeltaAngleY
@@ -46,6 +48,7 @@
 
 --------------------------------
 -- @function [parent=#CCRotateBy] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

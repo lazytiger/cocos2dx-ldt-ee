@@ -19,12 +19,14 @@
 
 --------------------------------
 -- @function [parent=#CCTurnOffTiles] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return #CCTurnOffTiles
 
 --------------------------------
 -- @function [parent=#CCTurnOffTiles] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @param #int seed
@@ -65,6 +67,7 @@
 
 --------------------------------
 -- @function [parent=#CCTurnOffTiles] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return CCGridAction#CCGridAction
@@ -96,6 +99,7 @@
 
 --------------------------------
 -- @function [parent=#CCTurnOffTiles] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

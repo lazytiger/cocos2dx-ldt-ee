@@ -33,6 +33,7 @@
 
 --------------------------------
 -- @function [parent=#CCTwirl] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @param CCPoint#CCPoint position
@@ -75,6 +76,7 @@
 
 --------------------------------
 -- @function [parent=#CCTwirl] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return CCGridAction#CCGridAction
@@ -106,6 +108,7 @@
 
 --------------------------------
 -- @function [parent=#CCTwirl] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

@@ -105,12 +105,14 @@
 
 --------------------------------
 -- @function [parent=#CCTextureAtlas] create
+-- @param self
 -- @param #char file
 -- @param #int capacity
 -- @return #CCTextureAtlas
 
 --------------------------------
 -- @function [parent=#CCTextureAtlas] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D texture
 -- @param #int capacity
 -- @return #CCTextureAtlas

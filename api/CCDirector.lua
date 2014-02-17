@@ -164,6 +164,7 @@
 
 --------------------------------
 -- @function [parent=#CCDirector] sharedDirector
+-- @param self
 -- @return #CCDirector
 
 --------------------------------

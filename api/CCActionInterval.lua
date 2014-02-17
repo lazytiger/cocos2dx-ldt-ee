@@ -28,6 +28,7 @@
 
 --------------------------------
 -- @function [parent=#CCActionInterval] create
+-- @param self
 -- @param #float d
 -- @return #CCActionInterval
 

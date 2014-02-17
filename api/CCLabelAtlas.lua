@@ -27,6 +27,7 @@
 
 --------------------------------
 -- @function [parent=#CCLabelAtlas] create
+-- @param self
 -- @param #char label
 -- @param #char charMapFile
 -- @param #int itemWidth
@@ -36,6 +37,7 @@
 
 --------------------------------
 -- @function [parent=#CCLabelAtlas] create
+-- @param self
 -- @param #char sring
 -- @param #char fntFile
 -- @return #CCLabelAtlas
@@ -106,6 +108,7 @@
 
 --------------------------------
 -- @function [parent=#CCLabelAtlas] create
+-- @param self
 -- @param #char tile
 -- @param #int tileWidth
 -- @param #int tileHeight

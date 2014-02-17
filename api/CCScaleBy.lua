@@ -8,12 +8,14 @@
 
 --------------------------------
 -- @function [parent=#CCScaleBy] create
+-- @param self
 -- @param #float duration
 -- @param #float s
 -- @return #CCScaleBy
 
 --------------------------------
 -- @function [parent=#CCScaleBy] create
+-- @param self
 -- @param #float duration
 -- @param #float sx
 -- @param #float sy
@@ -46,6 +48,7 @@
 
 --------------------------------
 -- @function [parent=#CCScaleBy] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

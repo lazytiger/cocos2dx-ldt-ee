@@ -57,6 +57,7 @@
 
 --------------------------------
 -- @function [parent=#CCRibbon:] create
+-- @param self
 -- @param #float w
 -- @param #char path
 -- @param #float length
@@ -540,6 +541,7 @@
 
 --------------------------------
 -- @function [parent=#CCRibbon:] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

@@ -18,6 +18,7 @@
 
 --------------------------------
 -- @function [parent=#CCCardinalSplineTo] create
+-- @param self
 -- @param #float duration
 -- @param CCPointArray#CCPointArray points
 -- @param #float tension
@@ -50,6 +51,7 @@
 
 --------------------------------
 -- @function [parent=#CCCardinalSplineTo] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

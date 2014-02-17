@@ -501,6 +501,7 @@
 
 --------------------------------
 -- @function [parent=#CCTableViewCell:] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

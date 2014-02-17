@@ -36,6 +36,7 @@
 
 --------------------------------
 -- @function [parent=#CCTiledGrid3DAction] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return CCGridAction#CCGridAction
@@ -67,6 +68,7 @@
 
 --------------------------------
 -- @function [parent=#CCTiledGrid3DAction] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

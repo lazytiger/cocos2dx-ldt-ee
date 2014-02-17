@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCScaleTo] create
+-- @param self
 -- @param #float duration
 -- @param #float sx
 -- @param #float sy
@@ -10,6 +11,7 @@
 
 --------------------------------
 -- @function [parent=#CCScaleTo] create
+-- @param self
 -- @param #float duration
 -- @param #float s
 -- @return #CCScaleTo
@@ -41,6 +43,7 @@
 
 --------------------------------
 -- @function [parent=#CCScaleTo] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

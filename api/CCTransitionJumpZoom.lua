@@ -3,12 +3,14 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionJumpZoom] create
+-- @param self
 -- @param #float t
 -- @param CCScene#CCScene scene
 -- @return #CCTransitionJumpZoom
 
 --------------------------------
 -- @function [parent=#CCTransitionJumpZoom] create
+-- @param self
 -- @return CCScene#CCScene
 
 --------------------------------
@@ -487,6 +489,7 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionJumpZoom] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

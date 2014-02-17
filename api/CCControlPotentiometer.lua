@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCControlPotentiometer] create
+-- @param self
 -- @param #char backgroundFile
 -- @param #char progressFile
 -- @param #char thumbFile

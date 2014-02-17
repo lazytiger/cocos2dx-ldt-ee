@@ -116,6 +116,7 @@
 
 --------------------------------
 -- @function [parent=#CCControl:public] create
+-- @param self
 -- @return CCLayerRGBA#CCLayerRGBA
 
 --------------------------------

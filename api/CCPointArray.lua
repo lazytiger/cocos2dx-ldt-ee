@@ -61,6 +61,7 @@
 
 --------------------------------
 -- @function [parent=#CCPointArray] create
+-- @param self
 -- @param #int capacity
 -- @return #CCPointArray
 
@@ -540,6 +541,7 @@
 
 --------------------------------
 -- @function [parent=#CCPointArray] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

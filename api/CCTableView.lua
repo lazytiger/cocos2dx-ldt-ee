@@ -135,12 +135,14 @@
 
 --------------------------------
 -- @function [parent=#CCTableView] create
+-- @param self
 -- @param CCSize#CCSize size
 -- @param CCNode#CCNode container
 -- @return CCScrollView#CCScrollView
 
 --------------------------------
 -- @function [parent=#CCTableView] create
+-- @param self
 -- @return CCScrollView#CCScrollView
 
 --------------------------------
@@ -430,6 +432,7 @@
 
 --------------------------------
 -- @function [parent=#CCTableView] create
+-- @param self
 -- @return CCLayer#CCLayer
 
 --------------------------------
@@ -908,6 +911,7 @@
 
 --------------------------------
 -- @function [parent=#CCTableView] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

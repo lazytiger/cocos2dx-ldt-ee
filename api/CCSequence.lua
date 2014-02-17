@@ -8,12 +8,14 @@
 
 --------------------------------
 -- @function [parent=#CCSequence] createWithTwoActions
+-- @param self
 -- @param CCFiniteTimeAction#CCFiniteTimeAction pActionOne
 -- @param CCFiniteTimeAction#CCFiniteTimeAction pActionTwo
 -- @return #CCSequence
 
 --------------------------------
 -- @function [parent=#CCSequence] create
+-- @param self
 -- @param CCArray#CCArray actions
 -- @return #CCSequence
 
@@ -44,6 +46,7 @@
 
 --------------------------------
 -- @function [parent=#CCSequence] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCMoveBy] create
+-- @param self
 -- @param #float duration
 -- @param CCPoint#CCPoint deltaPosition
 -- @return #CCMoveBy
@@ -39,6 +40,7 @@
 
 --------------------------------
 -- @function [parent=#CCMoveBy] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

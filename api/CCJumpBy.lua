@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCJumpBy] create
+-- @param self
 -- @param #float duration
 -- @param CCPoint#CCPoint position
 -- @param #float height
@@ -41,6 +42,7 @@
 
 --------------------------------
 -- @function [parent=#CCJumpBy] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

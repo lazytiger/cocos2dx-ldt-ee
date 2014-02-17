@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCRotateTo] create
+-- @param self
 -- @param #float duration
 -- @param #float fDeltaAngle
 -- @return #CCRotateTo
@@ -34,6 +35,7 @@
 
 --------------------------------
 -- @function [parent=#CCRotateTo] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

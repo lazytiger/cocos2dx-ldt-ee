@@ -175,6 +175,7 @@
 
 --------------------------------
 -- @function [parent=#CCControlButton] create
+-- @param self
 -- @param CCNode#CCNode label
 -- @param CCScale9Sprite#CCScale9Sprite backgroundSprite
 -- @return #CCControlButton
@@ -189,6 +190,7 @@
 
 --------------------------------
 -- @function [parent=#CCControlButton] create
+-- @param self
 -- @param #std::string title
 -- @param #char fontName
 -- @param #float fontSize
@@ -202,6 +204,7 @@
 
 --------------------------------
 -- @function [parent=#CCControlButton] create
+-- @param self
 -- @param CCScale9Sprite#CCScale9Sprite sprite
 -- @return #CCControlButton
 
@@ -322,6 +325,7 @@
 
 --------------------------------
 -- @function [parent=#CCControlButton] create
+-- @param self
 -- @return #CCControlButton
 
 return nil

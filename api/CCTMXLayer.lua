@@ -123,6 +123,7 @@
 
 --------------------------------
 -- @function [parent=#CCTMXLayer] create
+-- @param self
 -- @param CCTMXTilesetInfo#CCTMXTilesetInfo tilesetInfo
 -- @param CCTMXLayerInfo#CCTMXLayerInfo layerInfo
 -- @param CCTMXMapInfo#CCTMXMapInfo mapInfo
@@ -261,23 +262,27 @@
 
 --------------------------------
 -- @function [parent=#CCTMXLayer] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D tex
 -- @return CCSpriteBatchNode#CCSpriteBatchNode
 
 --------------------------------
 -- @function [parent=#CCTMXLayer] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D tex
 -- @param #int capacity
 -- @return CCSpriteBatchNode#CCSpriteBatchNode
 
 --------------------------------
 -- @function [parent=#CCTMXLayer] create
+-- @param self
 -- @param #char fileImage
 -- @param #int capacity
 -- @return CCSpriteBatchNode#CCSpriteBatchNode
 
 --------------------------------
 -- @function [parent=#CCTMXLayer] create
+-- @param self
 -- @param #char fileImage
 -- @return CCSpriteBatchNode#CCSpriteBatchNode
 
@@ -757,6 +762,7 @@
 
 --------------------------------
 -- @function [parent=#CCTMXLayer] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

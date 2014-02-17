@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCParticleSpiral] create
+-- @param self
 -- @return #CCParticleSpiral
 
 --------------------------------
@@ -52,11 +53,13 @@
 
 --------------------------------
 -- @function [parent=#CCParticleSpiral] create
+-- @param self
 -- @param #char plistFile
 -- @return CCParticleSystemQuad#CCParticleSystemQuad
 
 --------------------------------
 -- @function [parent=#CCParticleSpiral] create
+-- @param self
 -- @return CCParticleSystemQuad#CCParticleSystemQuad
 
 --------------------------------
@@ -541,6 +544,7 @@
 
 --------------------------------
 -- @function [parent=#CCParticleSpiral] create
+-- @param self
 -- @param #char plistFile
 -- @return CCParticleSystem#CCParticleSystem
 
@@ -1020,6 +1024,7 @@
 
 --------------------------------
 -- @function [parent=#CCParticleSpiral] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

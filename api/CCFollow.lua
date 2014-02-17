@@ -18,12 +18,14 @@
 
 --------------------------------
 -- @function [parent=#CCFollow] create
+-- @param self
 -- @param CCNode#CCNode pFollowedNode
 -- @param CCRect#CCRect rect
 -- @return #CCFollow
 
 --------------------------------
 -- @function [parent=#CCFollow] create
+-- @param self
 -- @param CCNode#CCNode pFollowedNode
 -- @return #CCFollow
 

@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCProgressFromTo] create
+-- @param self
 -- @param #float duration
 -- @param #float fFromPercentage
 -- @param #float fToPercentage
@@ -35,6 +36,7 @@
 
 --------------------------------
 -- @function [parent=#CCProgressFromTo] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

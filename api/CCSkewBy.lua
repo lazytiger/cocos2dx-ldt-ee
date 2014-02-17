@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCSkewBy] create
+-- @param self
 -- @param #float t
 -- @param #float deltaSkewX
 -- @param #float deltaSkewY
@@ -40,6 +41,7 @@
 
 --------------------------------
 -- @function [parent=#CCSkewBy] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

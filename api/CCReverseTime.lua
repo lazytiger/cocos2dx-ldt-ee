@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCReverseTime] create
+-- @param self
 -- @param CCFiniteTimeAction#CCFiniteTimeAction pAction
 -- @return #CCReverseTime
 
@@ -38,6 +39,7 @@
 
 --------------------------------
 -- @function [parent=#CCReverseTime] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

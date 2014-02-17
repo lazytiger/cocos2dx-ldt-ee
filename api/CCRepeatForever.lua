@@ -13,6 +13,7 @@
 
 --------------------------------
 -- @function [parent=#CCRepeatForever] create
+-- @param self
 -- @param CCActionInterval#CCActionInterval pAction
 -- @return #CCRepeatForever
 
@@ -43,6 +44,7 @@
 
 --------------------------------
 -- @function [parent=#CCRepeatForever] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

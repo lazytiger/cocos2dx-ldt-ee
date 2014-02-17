@@ -117,10 +117,12 @@
 
 --------------------------------
 -- @function [parent=#CCTexture2D] setDefaultAlphaPixelFormat
+-- @param self
 -- @param CCTexture2DPixelFormat#CCTexture2DPixelFormat format
 
 --------------------------------
 -- @function [parent=#CCTexture2D] defaultAlphaPixelFormat
+-- @param self
 -- @return CCTexture2DPixelFormat#CCTexture2DPixelFormat
 
 --------------------------------

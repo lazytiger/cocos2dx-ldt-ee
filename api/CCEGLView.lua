@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCEGLView] sharedOpenGLView
+-- @param self
 -- @return #CCEGLView
 
 --------------------------------

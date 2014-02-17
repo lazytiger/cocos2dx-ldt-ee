@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCStopGrid] create
+-- @param self
 -- @return #CCStopGrid
 
 --------------------------------

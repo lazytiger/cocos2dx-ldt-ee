@@ -3,11 +3,13 @@
 
 --------------------------------
 -- @function [parent=#CCCallFuncN] create
+-- @param self
 -- @param #LUA_FUNCTION funcID
 -- @return #CCCallFuncN
 
 --------------------------------
 -- @function [parent=#CCCallFuncN] create
+-- @param self
 -- @param #LUA_FUNCTION funcID
 -- @return CCCallFunc#CCCallFunc
 

@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCBlink] create
+-- @param self
 -- @param #float duration
 -- @param #int uBlinks
 -- @return #CCBlink
@@ -39,6 +40,7 @@
 
 --------------------------------
 -- @function [parent=#CCBlink] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

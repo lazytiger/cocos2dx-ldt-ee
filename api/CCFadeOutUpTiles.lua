@@ -9,6 +9,7 @@
 
 --------------------------------
 -- @function [parent=#CCFadeOutUpTiles] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return #CCFadeOutUpTiles
@@ -31,6 +32,7 @@
 
 --------------------------------
 -- @function [parent=#CCFadeOutUpTiles] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return CCFadeOutTRTiles#CCFadeOutTRTiles
@@ -70,6 +72,7 @@
 
 --------------------------------
 -- @function [parent=#CCFadeOutUpTiles] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return CCGridAction#CCGridAction
@@ -101,6 +104,7 @@
 
 --------------------------------
 -- @function [parent=#CCFadeOutUpTiles] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

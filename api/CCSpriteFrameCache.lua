@@ -55,10 +55,12 @@
 
 --------------------------------
 -- @function [parent=#CCSpriteFrameCache] sharedSpriteFrameCache
+-- @param self
 -- @return #CCSpriteFrameCache
 
 --------------------------------
 -- @function [parent=#CCSpriteFrameCache] purgeSharedSpriteFrameCache
+-- @param self
 
 --------------------------------
 -- @function [parent=#CCSpriteFrameCache] release

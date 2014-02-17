@@ -9,6 +9,7 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionPageTurn] create
+-- @param self
 -- @param #float t
 -- @param CCScene#CCScene scene
 -- @param #bool backwards
@@ -16,6 +17,7 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionPageTurn] create
+-- @param self
 -- @return CCScene#CCScene
 
 --------------------------------
@@ -494,6 +496,7 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionPageTurn] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

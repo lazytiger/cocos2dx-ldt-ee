@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCDelayTime] create
+-- @param self
 -- @param #float d
 -- @return #CCDelayTime
 
@@ -38,6 +39,7 @@
 
 --------------------------------
 -- @function [parent=#CCDelayTime] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

@@ -73,6 +73,7 @@
 
 --------------------------------
 -- @function [parent=#CCProgressTimer] create
+-- @param self
 -- @param CCSprite#CCSprite sp
 -- @return #CCProgressTimer
 

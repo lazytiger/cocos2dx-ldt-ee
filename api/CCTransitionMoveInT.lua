@@ -3,12 +3,14 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionMoveInT] create
+-- @param self
 -- @param #float t
 -- @param CCScene#CCScene scene
 -- @return #CCTransitionMoveInT
 
 --------------------------------
 -- @function [parent=#CCTransitionMoveInT] create
+-- @param self
 -- @return CCScene#CCScene
 
 --------------------------------
@@ -487,6 +489,7 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionMoveInT] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

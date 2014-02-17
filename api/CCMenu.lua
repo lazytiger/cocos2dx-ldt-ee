@@ -83,20 +83,24 @@
 
 --------------------------------
 -- @function [parent=#CCMenu] create
+-- @param self
 -- @return #CCMenu
 
 --------------------------------
 -- @function [parent=#CCMenu] createWithItem
+-- @param self
 -- @param CCMenuItem#CCMenuItem item
 -- @return #CCMenu
 
 --------------------------------
 -- @function [parent=#CCMenu] createWithArray
+-- @param self
 -- @param CCArray#CCArray pArrayOfItems
 -- @return #CCMenu
 
 --------------------------------
 -- @function [parent=#CCMenu] create
+-- @param self
 -- @return CCLayerRGBA#CCLayerRGBA
 
 --------------------------------

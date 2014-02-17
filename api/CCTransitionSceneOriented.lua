@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionSceneOriented] create
+-- @param self
 -- @param #float t
 -- @param CCScene#CCScene scene
 -- @param #tOrientation o
@@ -10,6 +11,7 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionSceneOriented] create
+-- @param self
 -- @return CCScene#CCScene
 
 --------------------------------
@@ -488,6 +490,7 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionSceneOriented] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

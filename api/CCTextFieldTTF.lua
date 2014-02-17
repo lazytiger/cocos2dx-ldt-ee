@@ -48,6 +48,7 @@
 
 --------------------------------
 -- @function [parent=#CCTextFieldTTF] textFieldWithPlaceHolder
+-- @param self
 -- @param #char placeholder
 -- @param CCSize#CCSize dimensions
 -- @param CCTextAlignment#CCTextAlignment alignment
@@ -57,6 +58,7 @@
 
 --------------------------------
 -- @function [parent=#CCTextFieldTTF] textFieldWithPlaceHolder
+-- @param self
 -- @param #char placeholder
 -- @param #char fontName
 -- @param #float fontSize
@@ -129,6 +131,7 @@
 
 --------------------------------
 -- @function [parent=#CCTextFieldTTF] create
+-- @param self
 -- @param #char str
 -- @param #char fontName
 -- @param #float fontSize
@@ -139,6 +142,7 @@
 
 --------------------------------
 -- @function [parent=#CCTextFieldTTF] create
+-- @param self
 -- @param #char str
 -- @param #char fontName
 -- @param #float fontSize
@@ -148,6 +152,7 @@
 
 --------------------------------
 -- @function [parent=#CCTextFieldTTF] create
+-- @param self
 -- @param #char str
 -- @param #char fontName
 -- @param #float fontSize
@@ -155,6 +160,7 @@
 
 --------------------------------
 -- @function [parent=#CCTextFieldTTF] create
+-- @param self
 -- @return CCLabelTTF#CCLabelTTF
 
 --------------------------------
@@ -421,38 +427,45 @@
 
 --------------------------------
 -- @function [parent=#CCTextFieldTTF] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D pTexture
 -- @return CCSprite#CCSprite
 
 --------------------------------
 -- @function [parent=#CCTextFieldTTF] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D pTexture
 -- @param CCRect#CCRect rect
 -- @return CCSprite#CCSprite
 
 --------------------------------
 -- @function [parent=#CCTextFieldTTF] createWithSpriteFrame
+-- @param self
 -- @param CCSpriteFrame#CCSpriteFrame pSpriteFrame
 -- @return CCSprite#CCSprite
 
 --------------------------------
 -- @function [parent=#CCTextFieldTTF] createWithSpriteFrameName
+-- @param self
 -- @param #char pszSpriteFrameName
 -- @return CCSprite#CCSprite
 
 --------------------------------
 -- @function [parent=#CCTextFieldTTF] create
+-- @param self
 -- @param #char pszFileName
 -- @param CCRect#CCRect rect
 -- @return CCSprite#CCSprite
 
 --------------------------------
 -- @function [parent=#CCTextFieldTTF] create
+-- @param self
 -- @param #char pszFileName
 -- @return CCSprite#CCSprite
 
 --------------------------------
 -- @function [parent=#CCTextFieldTTF] create
+-- @param self
 -- @return CCSprite#CCSprite
 
 --------------------------------

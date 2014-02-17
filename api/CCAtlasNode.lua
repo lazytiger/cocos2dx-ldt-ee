@@ -67,6 +67,7 @@
 
 --------------------------------
 -- @function [parent=#CCAtlasNode] create
+-- @param self
 -- @param #char tile
 -- @param #int tileWidth
 -- @param #int tileHeight

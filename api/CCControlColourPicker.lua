@@ -43,6 +43,7 @@
 
 --------------------------------
 -- @function [parent=#CCControlColourPicker] create
+-- @param self
 -- @return #CCControlColourPicker
 
 --------------------------------

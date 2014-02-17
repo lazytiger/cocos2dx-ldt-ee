@@ -83,6 +83,7 @@
 
 --------------------------------
 -- @function [parent=#CCSpriteFrame] create
+-- @param self
 -- @param #char filename
 -- @param CCRect#CCRect rect
 -- @param #bool rotated
@@ -92,12 +93,14 @@
 
 --------------------------------
 -- @function [parent=#CCSpriteFrame] create
+-- @param self
 -- @param #char filename
 -- @param CCRect#CCRect rect
 -- @return #CCSpriteFrame
 
 --------------------------------
 -- @function [parent=#CCSpriteFrame] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D pobTexture
 -- @param CCRect#CCRect rect
 -- @param #bool rotated
@@ -107,6 +110,7 @@
 
 --------------------------------
 -- @function [parent=#CCSpriteFrame] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D pobTexture
 -- @param CCRect#CCRect rect
 -- @return #CCSpriteFrame

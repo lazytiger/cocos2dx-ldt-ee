@@ -13,6 +13,7 @@
 
 --------------------------------
 -- @function [parent=#CCRepeat] create
+-- @param self
 -- @param CCFiniteTimeAction#CCFiniteTimeAction pAction
 -- @param #int times
 -- @return #CCRepeat
@@ -44,6 +45,7 @@
 
 --------------------------------
 -- @function [parent=#CCRepeat] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

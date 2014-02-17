@@ -134,23 +134,27 @@
 
 --------------------------------
 -- @function [parent=#CCSpriteBatchNode] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D tex
 -- @return #CCSpriteBatchNode
 
 --------------------------------
 -- @function [parent=#CCSpriteBatchNode] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D tex
 -- @param #int capacity
 -- @return #CCSpriteBatchNode
 
 --------------------------------
 -- @function [parent=#CCSpriteBatchNode] create
+-- @param self
 -- @param #char fileImage
 -- @param #int capacity
 -- @return #CCSpriteBatchNode
 
 --------------------------------
 -- @function [parent=#CCSpriteBatchNode] create
+-- @param self
 -- @param #char fileImage
 -- @return #CCSpriteBatchNode
 
@@ -630,6 +634,7 @@
 
 --------------------------------
 -- @function [parent=#CCSpriteBatchNode] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

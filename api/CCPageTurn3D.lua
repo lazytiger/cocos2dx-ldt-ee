@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCPageTurn3D] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return #CCPageTurn3D
@@ -42,6 +43,7 @@
 
 --------------------------------
 -- @function [parent=#CCPageTurn3D] create
+-- @param self
 -- @param #float duration
 -- @param CCSize#CCSize gridSize
 -- @return CCGridAction#CCGridAction
@@ -73,6 +75,7 @@
 
 --------------------------------
 -- @function [parent=#CCPageTurn3D] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

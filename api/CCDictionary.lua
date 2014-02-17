@@ -74,15 +74,18 @@
 
 --------------------------------
 -- @function [parent=#CCDictionary] create
+-- @param self
 -- @return #CCDictionary
 
 --------------------------------
 -- @function [parent=#CCDictionary] createWithDictionary
+-- @param self
 -- @param #CCDictionary srcDict
 -- @return #CCDictionary
 
 --------------------------------
 -- @function [parent=#CCDictionary] createWithContentsOfFile
+-- @param self
 -- @param #char pFileName
 -- @return #CCDictionary
 

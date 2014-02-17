@@ -3,10 +3,12 @@
 
 --------------------------------
 -- @function [parent=#CCFileUtils] sharedFileUtils
+-- @param self
 -- @return #CCFileUtils
 
 --------------------------------
 -- @function [parent=#CCFileUtils] purgeFileUtils
+-- @param self
 
 --------------------------------
 -- @function [parent=#CCFileUtils] purgeCachedEntries

@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCHide] create
+-- @param self
 -- @return #CCHide
 
 --------------------------------

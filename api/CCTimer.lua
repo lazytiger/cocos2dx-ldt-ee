@@ -18,6 +18,7 @@
 
 --------------------------------
 -- @function [parent=#CCTimer] timerWithScriptHandler
+-- @param self
 -- @param #LUA_FUNCTION funcID
 -- @param #float fSeconds
 -- @return #CCTimer

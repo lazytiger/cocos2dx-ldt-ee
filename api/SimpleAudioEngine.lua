@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#SimpleAudioEngine] sharedEngine
+-- @param self
 -- @return #SimpleAudioEngine
 
 --------------------------------

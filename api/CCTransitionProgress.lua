@@ -3,18 +3,21 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionProgress] create
+-- @param self
 -- @param #float t
 -- @param CCScene#CCScene scene
 -- @return #CCTransitionProgress
 
 --------------------------------
 -- @function [parent=#CCTransitionProgress] create
+-- @param self
 -- @param #float t
 -- @param CCScene#CCScene scene
 -- @return CCTransitionScene#CCTransitionScene
 
 --------------------------------
 -- @function [parent=#CCTransitionProgress] create
+-- @param self
 -- @return CCScene#CCScene
 
 --------------------------------
@@ -493,6 +496,7 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionProgress] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

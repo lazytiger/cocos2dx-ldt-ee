@@ -104,9 +104,11 @@
 
 --------------------------------
 -- @function [parent=#CCLabelBMFont] purgeCachedData
+-- @param self
 
 --------------------------------
 -- @function [parent=#CCLabelBMFont] create
+-- @param self
 -- @param #char str
 -- @param #char fntFile
 -- @param #float width
@@ -116,6 +118,7 @@
 
 --------------------------------
 -- @function [parent=#CCLabelBMFont] create
+-- @param self
 -- @return #CCLabelBMFont
 
 --------------------------------
@@ -251,23 +254,27 @@
 
 --------------------------------
 -- @function [parent=#CCLabelBMFont] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D tex
 -- @return CCSpriteBatchNode#CCSpriteBatchNode
 
 --------------------------------
 -- @function [parent=#CCLabelBMFont] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D tex
 -- @param #int capacity
 -- @return CCSpriteBatchNode#CCSpriteBatchNode
 
 --------------------------------
 -- @function [parent=#CCLabelBMFont] create
+-- @param self
 -- @param #char fileImage
 -- @param #int capacity
 -- @return CCSpriteBatchNode#CCSpriteBatchNode
 
 --------------------------------
 -- @function [parent=#CCLabelBMFont] create
+-- @param self
 -- @param #char fileImage
 -- @return CCSpriteBatchNode#CCSpriteBatchNode
 
@@ -747,6 +754,7 @@
 
 --------------------------------
 -- @function [parent=#CCLabelBMFont] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

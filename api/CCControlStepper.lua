@@ -10,6 +10,7 @@
 
 --------------------------------
 -- @function [parent=#CCControlStepper] create
+-- @param self
 -- @param CCSprite#CCSprite minusSprite
 -- @param CCSprite#CCSprite plusSprite
 -- @return #CCControlStepper

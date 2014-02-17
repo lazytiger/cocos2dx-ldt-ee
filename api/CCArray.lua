@@ -3,25 +3,30 @@
 
 --------------------------------
 -- @function [parent=#CCArray] create
+-- @param self
 -- @return #CCArray
 
 --------------------------------
 -- @function [parent=#CCArray] createWithObject
+-- @param self
 -- @param CCObject#CCObject pObject
 -- @return #CCArray
 
 --------------------------------
 -- @function [parent=#CCArray] createWithArray
+-- @param self
 -- @param #CCArray otherArray
 -- @return #CCArray
 
 --------------------------------
 -- @function [parent=#CCArray] createWithCapacity
+-- @param self
 -- @param #int capacity
 -- @return #CCArray
 
 --------------------------------
 -- @function [parent=#CCArray] createWithContentsOfFile
+-- @param self
 -- @param #char pFileName
 -- @return #CCArray
 

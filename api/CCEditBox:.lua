@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCEditBox:] create
+-- @param self
 -- @param CCSize#CCSize size
 -- @param CCScale9Sprite#CCScale9Sprite pNormal9SpriteBg
 -- @param CCScale9Sprite#CCScale9Sprite pPressed9SpriteBg
@@ -329,6 +330,7 @@
 
 --------------------------------
 -- @function [parent=#CCEditBox:] create
+-- @param self
 -- @param CCNode#CCNode label
 -- @param CCScale9Sprite#CCScale9Sprite backgroundSprite
 -- @return CCControlButton#CCControlButton
@@ -343,6 +345,7 @@
 
 --------------------------------
 -- @function [parent=#CCEditBox:] create
+-- @param self
 -- @param #std::string title
 -- @param #char fontName
 -- @param #float fontSize
@@ -356,6 +359,7 @@
 
 --------------------------------
 -- @function [parent=#CCEditBox:] create
+-- @param self
 -- @param CCScale9Sprite#CCScale9Sprite sprite
 -- @return CCControlButton#CCControlButton
 
@@ -476,6 +480,7 @@
 
 --------------------------------
 -- @function [parent=#CCEditBox:] create
+-- @param self
 -- @return CCControlButton#CCControlButton
 
 return nil

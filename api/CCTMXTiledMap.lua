@@ -77,11 +77,13 @@
 
 --------------------------------
 -- @function [parent=#CCTMXTiledMap] create
+-- @param self
 -- @param #char tmxFile
 -- @return #CCTMXTiledMap
 
 --------------------------------
 -- @function [parent=#CCTMXTiledMap] createWithXML
+-- @param self
 -- @param #char tmxString
 -- @param #char resourcePath
 -- @return #CCTMXTiledMap
@@ -562,6 +564,7 @@
 
 --------------------------------
 -- @function [parent=#CCTMXTiledMap] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

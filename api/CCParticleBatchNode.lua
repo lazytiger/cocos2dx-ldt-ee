@@ -75,12 +75,14 @@
 
 --------------------------------
 -- @function [parent=#CCParticleBatchNode] create
+-- @param self
 -- @param #char fileImage
 -- @param #int capacity
 -- @return #CCParticleBatchNode
 
 --------------------------------
 -- @function [parent=#CCParticleBatchNode] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D tex
 -- @param #int capacity
 -- @return #CCParticleBatchNode

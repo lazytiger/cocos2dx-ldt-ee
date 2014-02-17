@@ -8,6 +8,7 @@
 
 --------------------------------
 -- @function [parent=#CCEaseBounceIn] create
+-- @param self
 -- @param CCActionInterval#CCActionInterval pAction
 -- @return #CCEaseBounceIn
 
@@ -18,6 +19,7 @@
 
 --------------------------------
 -- @function [parent=#CCEaseBounceIn] create
+-- @param self
 -- @param CCActionInterval#CCActionInterval pAction
 -- @return CCEaseBounce#CCEaseBounce
 
@@ -28,6 +30,7 @@
 
 --------------------------------
 -- @function [parent=#CCEaseBounceIn] create
+-- @param self
 -- @param CCActionInterval#CCActionInterval pAction
 -- @return CCActionEase#CCActionEase
 
@@ -58,6 +61,7 @@
 
 --------------------------------
 -- @function [parent=#CCEaseBounceIn] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

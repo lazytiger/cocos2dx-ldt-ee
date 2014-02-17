@@ -19,6 +19,7 @@
 
 --------------------------------
 -- @function [parent=#CCTileMapAtlas] create
+-- @param self
 -- @param #char tile
 -- @param #char mapFile
 -- @param #int tileWidth
@@ -91,6 +92,7 @@
 
 --------------------------------
 -- @function [parent=#CCTileMapAtlas] create
+-- @param self
 -- @param #char tile
 -- @param #int tileWidth
 -- @param #int tileHeight

@@ -3,12 +3,14 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionFadeBL] create
+-- @param self
 -- @param #float t
 -- @param CCScene#CCScene scene
 -- @return #CCTransitionFadeBL
 
 --------------------------------
 -- @function [parent=#CCTransitionFadeBL] create
+-- @param self
 -- @return CCScene#CCScene
 
 --------------------------------
@@ -487,6 +489,7 @@
 
 --------------------------------
 -- @function [parent=#CCTransitionFadeBL] create
+-- @param self
 -- @return CCNode#CCNode
 
 --------------------------------

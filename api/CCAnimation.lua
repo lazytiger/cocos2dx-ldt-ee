@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCAnimation] create
+-- @param self
 -- @param CCArray#CCArray arrayOfAnimationFrameNames
 -- @param #float delayPerUnit
 -- @param #int loops
@@ -10,16 +11,19 @@
 
 --------------------------------
 -- @function [parent=#CCAnimation] create
+-- @param self
 -- @return #CCAnimation
 
 --------------------------------
 -- @function [parent=#CCAnimation] createWithSpriteFrames
+-- @param self
 -- @param CCArray#CCArray arrayOfSpriteFrameNames
 -- @param #float delay
 -- @return #CCAnimation
 
 --------------------------------
 -- @function [parent=#CCAnimation] createWithSpriteFrames
+-- @param self
 -- @param CCArray#CCArray arrayOfSpriteFrameNames
 -- @return #CCAnimation
 

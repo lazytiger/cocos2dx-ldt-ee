@@ -18,6 +18,7 @@
 
 --------------------------------
 -- @function [parent=#CCEaseElastic] create
+-- @param self
 -- @param CCActionInterval#CCActionInterval pAction
 -- @param #float fPeriod
 -- @return #CCEaseElastic
@@ -29,6 +30,7 @@
 
 --------------------------------
 -- @function [parent=#CCEaseElastic] create
+-- @param self
 -- @param CCActionInterval#CCActionInterval pAction
 -- @return CCActionEase#CCActionEase
 
@@ -59,6 +61,7 @@
 
 --------------------------------
 -- @function [parent=#CCEaseElastic] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

@@ -72,6 +72,7 @@
 
 --------------------------------
 -- @function [parent=#CCCamera] getZEye
+-- @param self
 -- @return #float
 
 --------------------------------

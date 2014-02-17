@@ -107,6 +107,7 @@
 
 --------------------------------
 -- @function [parent=#CCScale9Sprite] create
+-- @param self
 -- @param #char file
 -- @param CCRect#CCRect rect
 -- @param CCRect#CCRect capInsets
@@ -121,6 +122,7 @@
 
 --------------------------------
 -- @function [parent=#CCScale9Sprite] create
+-- @param self
 -- @param #char file
 -- @param CCRect#CCRect rect
 -- @return #CCScale9Sprite
@@ -134,6 +136,7 @@
 
 --------------------------------
 -- @function [parent=#CCScale9Sprite] create
+-- @param self
 -- @param CCRect#CCRect capInsets
 -- @param #char file
 -- @return #CCScale9Sprite
@@ -146,6 +149,7 @@
 
 --------------------------------
 -- @function [parent=#CCScale9Sprite] create
+-- @param self
 -- @param #char file
 -- @return #CCScale9Sprite
 
@@ -158,6 +162,7 @@
 
 --------------------------------
 -- @function [parent=#CCScale9Sprite] createWithSpriteFrame
+-- @param self
 -- @param CCSpriteFrame#CCSpriteFrame spriteFrame
 -- @param CCRect#CCRect capInsets
 -- @return #CCScale9Sprite
@@ -170,6 +175,7 @@
 
 --------------------------------
 -- @function [parent=#CCScale9Sprite] createWithSpriteFrame
+-- @param self
 -- @param CCSpriteFrame#CCSpriteFrame spriteFrame
 -- @return #CCScale9Sprite
 
@@ -182,6 +188,7 @@
 
 --------------------------------
 -- @function [parent=#CCScale9Sprite] createWithSpriteFrameName
+-- @param self
 -- @param #char spriteFrameName
 -- @param CCRect#CCRect capInsets
 -- @return #CCScale9Sprite
@@ -194,6 +201,7 @@
 
 --------------------------------
 -- @function [parent=#CCScale9Sprite] createWithSpriteFrameName
+-- @param self
 -- @param #char spriteFrameName
 -- @return #CCScale9Sprite
 
@@ -205,6 +213,7 @@
 
 --------------------------------
 -- @function [parent=#CCScale9Sprite] create
+-- @param self
 -- @return #CCScale9Sprite
 
 --------------------------------

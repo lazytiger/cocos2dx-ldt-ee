@@ -50,17 +50,20 @@
 
 --------------------------------
 -- @function [parent=#CCString] create
+-- @param self
 -- @param #char pStr
 -- @return #CCString
 
 --------------------------------
 -- @function [parent=#CCString] createWithData
+-- @param self
 -- @param #char pData
 -- @param #long nLen
 -- @return #CCString
 
 --------------------------------
 -- @function [parent=#CCString] createWithContentsOfFile
+-- @param self
 -- @param #char pszFileName
 -- @return #CCString
 

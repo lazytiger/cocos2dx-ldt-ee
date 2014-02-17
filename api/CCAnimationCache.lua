@@ -20,10 +20,12 @@
 
 --------------------------------
 -- @function [parent=#CCAnimationCache] sharedAnimationCache
+-- @param self
 -- @return #CCAnimationCache
 
 --------------------------------
 -- @function [parent=#CCAnimationCache] purgeSharedAnimationCache
+-- @param self
 
 --------------------------------
 -- @function [parent=#CCAnimationCache] addAnimationsWithDictionary

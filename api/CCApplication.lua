@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCApplication] sharedApplication
+-- @param self
 -- @return #CCApplication
 
 --------------------------------

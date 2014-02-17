@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCBezierTo] create
+-- @param self
 -- @param #float t
 -- @param #ccBezierConfig c
 -- @return #CCBezierTo
@@ -34,6 +35,7 @@
 
 --------------------------------
 -- @function [parent=#CCBezierTo] create
+-- @param self
 -- @param #float d
 -- @return CCActionInterval#CCActionInterval
 

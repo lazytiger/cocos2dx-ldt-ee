@@ -68,6 +68,7 @@
 
 --------------------------------
 -- @function [parent=#CCLabelTTF] create
+-- @param self
 -- @param #char str
 -- @param #char fontName
 -- @param #float fontSize
@@ -78,6 +79,7 @@
 
 --------------------------------
 -- @function [parent=#CCLabelTTF] create
+-- @param self
 -- @param #char str
 -- @param #char fontName
 -- @param #float fontSize
@@ -87,6 +89,7 @@
 
 --------------------------------
 -- @function [parent=#CCLabelTTF] create
+-- @param self
 -- @param #char str
 -- @param #char fontName
 -- @param #float fontSize
@@ -94,6 +97,7 @@
 
 --------------------------------
 -- @function [parent=#CCLabelTTF] create
+-- @param self
 -- @return #CCLabelTTF
 
 --------------------------------
@@ -360,38 +364,45 @@
 
 --------------------------------
 -- @function [parent=#CCLabelTTF] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D pTexture
 -- @return CCSprite#CCSprite
 
 --------------------------------
 -- @function [parent=#CCLabelTTF] createWithTexture
+-- @param self
 -- @param CCTexture2D#CCTexture2D pTexture
 -- @param CCRect#CCRect rect
 -- @return CCSprite#CCSprite
 
 --------------------------------
 -- @function [parent=#CCLabelTTF] createWithSpriteFrame
+-- @param self
 -- @param CCSpriteFrame#CCSpriteFrame pSpriteFrame
 -- @return CCSprite#CCSprite
 
 --------------------------------
 -- @function [parent=#CCLabelTTF] createWithSpriteFrameName
+-- @param self
 -- @param #char pszSpriteFrameName
 -- @return CCSprite#CCSprite
 
 --------------------------------
 -- @function [parent=#CCLabelTTF] create
+-- @param self
 -- @param #char pszFileName
 -- @param CCRect#CCRect rect
 -- @return CCSprite#CCSprite
 
 --------------------------------
 -- @function [parent=#CCLabelTTF] create
+-- @param self
 -- @param #char pszFileName
 -- @return CCSprite#CCSprite
 
 --------------------------------
 -- @function [parent=#CCLabelTTF] create
+-- @param self
 -- @return CCSprite#CCSprite
 
 --------------------------------

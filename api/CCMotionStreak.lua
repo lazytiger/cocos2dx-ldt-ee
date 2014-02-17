@@ -3,6 +3,7 @@
 
 --------------------------------
 -- @function [parent=#CCMotionStreak] create
+-- @param self
 -- @param #float fade
 -- @param #float minSeg
 -- @param #float stroke
@@ -12,6 +13,7 @@
 
 --------------------------------
 -- @function [parent=#CCMotionStreak] create
+-- @param self
 -- @param #float fade
 -- @param #float minSeg
 -- @param #float stroke

@@ -64,6 +64,7 @@
 
 --------------------------------
 -- @function [parent=#CCLayerColor] create
+-- @param self
 -- @param #ccColor4B color
 -- @param #GLfloat width
 -- @param #GLfloat height
@@ -71,11 +72,13 @@
 
 --------------------------------
 -- @function [parent=#CCLayerColor] create
+-- @param self
 -- @param #ccColor4B color
 -- @return #CCLayerColor
 
 --------------------------------
 -- @function [parent=#CCLayerColor] create
+-- @param self
 -- @return CCLayerRGBA#CCLayerRGBA
 
 --------------------------------

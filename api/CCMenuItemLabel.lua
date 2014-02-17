@@ -75,6 +75,7 @@
 
 --------------------------------
 -- @function [parent=#CCMenuItemLabel] create
+-- @param self
 -- @param CCNode#CCNode label
 -- @return #CCMenuItemLabel
 

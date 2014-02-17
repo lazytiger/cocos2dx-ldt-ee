@@ -67,10 +67,12 @@
 
 --------------------------------
 -- @function [parent=#CCUserDefault] sharedUserDefault
+-- @param self
 -- @return #CCUserDefault
 
 --------------------------------
 -- @function [parent=#CCUserDefault] purgeSharedUserDefault
+-- @param self
 
 --------------------------------
 -- @function [parent=#CCUserDefault] getXMLFilePath

@@ -80,6 +80,7 @@
 
 --------------------------------
 -- @function [parent=#CCMenuItemToggle] create
+-- @param self
 -- @param CCMenuItem#CCMenuItem item
 -- @return #CCMenuItemToggle
 
