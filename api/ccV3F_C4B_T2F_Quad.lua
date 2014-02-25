@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccV3F_C4B_T2F_Quad
+-- @type ccV3F_C4B_T2F_Quad
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccV3F_C4B_T2F_Quad] #ccV3F_C4B_T2F tl

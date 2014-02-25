@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccT2F_Quad
+-- @type ccT2F_Quad
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccT2F_Quad] #ccTex2F bl

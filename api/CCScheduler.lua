@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCScheduler
+-- @type CCScheduler
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCScheduler] getTimeScale
@@ -23,39 +24,5 @@
 -- @function [parent=#CCScheduler] unscheduleScriptEntry
 -- @param self
 -- @param #int uScheduleScriptEntryID
-
---------------------------------
--- @function [parent=#CCScheduler] release
--- @param self
-
---------------------------------
--- @function [parent=#CCScheduler] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCScheduler] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCScheduler] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCScheduler] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCScheduler] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCScheduler] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

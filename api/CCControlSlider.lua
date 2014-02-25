@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCControlSlider
+-- @type CCControlSlider
+-- @extends CCControl#CCControl
 
 --------------------------------
 -- @function [parent=#CCControlSlider] getValue

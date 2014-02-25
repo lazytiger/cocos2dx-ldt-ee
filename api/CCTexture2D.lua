@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCTexture2D
+-- @type CCTexture2D
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCTexture2D] releaseData
@@ -124,39 +125,5 @@
 -- @function [parent=#CCTexture2D] defaultAlphaPixelFormat
 -- @param self
 -- @return CCTexture2DPixelFormat#CCTexture2DPixelFormat
-
---------------------------------
--- @function [parent=#CCTexture2D] release
--- @param self
-
---------------------------------
--- @function [parent=#CCTexture2D] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCTexture2D] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCTexture2D] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCTexture2D] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCTexture2D] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCTexture2D] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

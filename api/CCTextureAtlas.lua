@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCTextureAtlas
+-- @type CCTextureAtlas
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCTextureAtlas] getTotalQuads
@@ -116,39 +117,5 @@
 -- @param CCTexture2D#CCTexture2D texture
 -- @param #int capacity
 -- @return #CCTextureAtlas
-
---------------------------------
--- @function [parent=#CCTextureAtlas] release
--- @param self
-
---------------------------------
--- @function [parent=#CCTextureAtlas] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCTextureAtlas] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCTextureAtlas] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCTextureAtlas] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCTextureAtlas] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCTextureAtlas] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

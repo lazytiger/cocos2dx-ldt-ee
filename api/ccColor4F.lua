@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccColor4F
+-- @type ccColor4F
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccColor4F] #GLfloat r

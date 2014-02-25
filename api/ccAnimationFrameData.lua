@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccAnimationFrameData
+-- @type ccAnimationFrameData
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccAnimationFrameData] #ccT2F_Quad texCoords

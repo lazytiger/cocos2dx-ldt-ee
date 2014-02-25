@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCApplication
+-- @type CCApplication
+-- @extends #
 
 --------------------------------
 -- @function [parent=#CCApplication] sharedApplication

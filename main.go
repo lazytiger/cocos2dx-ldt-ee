@@ -313,28 +313,29 @@ func parseFile(module, name string) *Pkg {
 	return pkg
 }
 
-func saveClass(file *os.File, class *Class, parent string) {
+func saveClass(file *os.File, class *Class) {
+
 	for _, field := range class.fields {
 		fmt.Fprintf(file, "--------------------------------\n")
-		fmt.Fprintf(file, "-- @field [parent=#%s] #%s %s\n\n", parent, field.typ, field.name)
+		fmt.Fprintf(file, "-- @field [parent=#%s] #%s %s\n\n", class.name, field.typ, field.name)
 	}
 
 	for _, fun := range class.funs {
 		fmt.Fprintf(file, "--------------------------------\n")
-		fmt.Fprintf(file, "-- @function [parent=#%s] %s\n", parent, fun.name)
+		fmt.Fprintf(file, "-- @function [parent=#%s] %s\n", class.name, fun.name)
 		if (!USE_STATIC || !fun.static) && class.name != "global" {
 			fmt.Fprintf(file, "-- @param self\n")
 		}
 
 		for _, arg := range fun.args {
-			if len(arg.typ) > 1 && arg.typ[0:2] == "CC" && arg.typ != parent {
+			if len(arg.typ) > 1 && arg.typ[0:2] == "CC" && arg.typ != class.name {
 				fmt.Fprintf(file, "-- @param %s#%s %s\n", arg.typ, arg.typ, arg.name)
 			} else {
 				fmt.Fprintf(file, "-- @param #%s %s\n", arg.typ, arg.name)
 			}
 		}
 		if fun.ret != "void" {
-			if len(fun.ret) > 1 && fun.ret[0:2] == "CC" && fun.ret != parent {
+			if len(fun.ret) > 1 && fun.ret[0:2] == "CC" && fun.ret != class.name {
 				fmt.Fprintf(file, "-- @return %s#%s\n\n", fun.ret, fun.ret)
 			} else {
 				fmt.Fprintf(file, "-- @return #%s\n\n", fun.ret)
@@ -356,21 +357,18 @@ func saveModule(fname string, class *Class, classes map[string]*Class) {
 		return
 	}
 
-	parent := class.name
-	if parent != "global" {
+	if class.name != "global" {
 		fmt.Fprintf(file, "--------------------------------\n")
-		fmt.Fprintf(file, "-- @module %s\n\n", class.name)
-	}
-
-	for class != nil {
-		saveClass(file, class, parent)
-		if class.parent == "" && parent == "global" {
-			break
+		fmt.Fprintf(file, "-- @type %s\n", class.name)
+		if class.parent != "parent" {
+			fmt.Fprintf(file, "-- @extends %s#%s\n", class.parent, class.parent)
 		}
-		class = classes[class.parent]
+		fmt.Fprintf(file, "\n")
 	}
 
-	if parent != "global" {
+	saveClass(file, class)
+
+	if class.name != "global" {
 		fmt.Fprintf(file, "return nil\n")
 	}
 	file.Close()

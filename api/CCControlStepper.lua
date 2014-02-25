@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCControlStepper
+-- @type CCControlStepper
+-- @extends CCControl#CCControl
 
 --------------------------------
 -- @function [parent=#CCControlStepper] initWithMinusSpriteAndPlusSprite

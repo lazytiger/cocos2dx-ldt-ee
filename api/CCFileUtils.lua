@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCFileUtils
+-- @type CCFileUtils
+-- @extends #
 
 --------------------------------
 -- @function [parent=#CCFileUtils] sharedFileUtils

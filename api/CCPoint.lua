@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCPoint
+-- @type CCPoint
+-- @extends #
 
 --------------------------------
 -- @field [parent=#CCPoint] #float x

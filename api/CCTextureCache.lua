@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCTextureCache
+-- @type CCTextureCache
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCTextureCache] addImage
@@ -60,39 +61,5 @@
 --------------------------------
 -- @function [parent=#CCTextureCache] purgeSharedTextureCache
 -- @param self
-
---------------------------------
--- @function [parent=#CCTextureCache] release
--- @param self
-
---------------------------------
--- @function [parent=#CCTextureCache] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCTextureCache] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCTextureCache] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCTextureCache] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCTextureCache] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCTextureCache] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

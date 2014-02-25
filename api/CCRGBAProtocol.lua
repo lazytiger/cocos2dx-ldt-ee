@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCRGBAProtocol
+-- @type CCRGBAProtocol
+-- @extends #
 
 --------------------------------
 -- @function [parent=#CCRGBAProtocol] setColor

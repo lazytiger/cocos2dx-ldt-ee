@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCControlSwitch
+-- @type CCControlSwitch
+-- @extends CCControl#CCControl
 
 --------------------------------
 -- @function [parent=#CCControlSwitch] initWithMaskSprite

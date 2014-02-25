@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCObject
+-- @type CCObject
+-- @extends #
 
 --------------------------------
 -- @function [parent=#CCObject] release

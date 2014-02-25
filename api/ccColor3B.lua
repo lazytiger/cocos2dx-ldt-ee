@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccColor3B
+-- @type ccColor3B
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccColor3B] #GLubyte r

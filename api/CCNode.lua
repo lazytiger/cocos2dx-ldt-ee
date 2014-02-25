@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCNode
+-- @type CCNode
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCNode] getZOrder
@@ -479,39 +480,5 @@
 -- @function [parent=#CCNode] create
 -- @param self
 -- @return #CCNode
-
---------------------------------
--- @function [parent=#CCNode] release
--- @param self
-
---------------------------------
--- @function [parent=#CCNode] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCNode] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCNode] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCNode] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCNode] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCNode] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

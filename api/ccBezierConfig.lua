@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccBezierConfig
+-- @type ccBezierConfig
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccBezierConfig] #CCPoint endPosition

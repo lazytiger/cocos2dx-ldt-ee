@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCDictionary
+-- @type CCDictionary
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCDictionary] count
@@ -88,39 +89,5 @@
 -- @param self
 -- @param #char pFileName
 -- @return #CCDictionary
-
---------------------------------
--- @function [parent=#CCDictionary] release
--- @param self
-
---------------------------------
--- @function [parent=#CCDictionary] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCDictionary] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCDictionary] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCDictionary] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCDictionary] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCDictionary] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

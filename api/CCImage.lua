@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCImage
+-- @type CCImage
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @field [parent=#CCImage] #EImageFormat kFmtJpg
@@ -123,39 +124,5 @@
 -- @function [parent=#CCImage] getBitsPerComponent
 -- @param self
 -- @return #int
-
---------------------------------
--- @function [parent=#CCImage] release
--- @param self
-
---------------------------------
--- @function [parent=#CCImage] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCImage] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCImage] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCImage] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCImage] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCImage] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

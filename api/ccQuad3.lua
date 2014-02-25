@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccQuad3
+-- @type ccQuad3
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccQuad3] #ccVertex3F bl

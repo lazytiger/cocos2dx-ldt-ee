@@ -1,5 +1,6 @@
 --------------------------------
--- @module SimpleAudioEngine
+-- @type SimpleAudioEngine
+-- @extends #
 
 --------------------------------
 -- @function [parent=#SimpleAudioEngine] sharedEngine

@@ -1,7 +1,10 @@
 #!/bin/sh
 
+MAIN=/home/hoping/Programs/Golang/workspace/cocos2dx-completion/bin/main
+PKG_ROOT=/home/hoping/Programs/Android/exlib/cocos2d-x-2.2.1/tools/tolua++
 rm -rf api/*
-./main -pkg_root="/home/hoping/Programs/Android/exlib/cocos2d-x-2.2.1/tools/tolua++" -dst_root="api"
+
+$MAIN -pkg_root="$PKG_ROOT" -dst_root="api"
 cd api
 cp ../old_api/* .
 cat Const* >> global.lua

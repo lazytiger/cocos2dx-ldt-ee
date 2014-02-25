@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCControlPotentiometer
+-- @type CCControlPotentiometer
+-- @extends CCControl#CCControl
 
 --------------------------------
 -- @function [parent=#CCControlPotentiometer] create

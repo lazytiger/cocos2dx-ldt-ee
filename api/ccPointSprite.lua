@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccPointSprite
+-- @type ccPointSprite
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccPointSprite] #ccVertex2F pos

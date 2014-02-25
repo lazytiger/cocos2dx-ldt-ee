@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccV3F_C4B_T2F
+-- @type ccV3F_C4B_T2F
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccV3F_C4B_T2F] #ccVertex3F vertices

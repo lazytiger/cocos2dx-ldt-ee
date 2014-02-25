@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccVertex3F
+-- @type ccVertex3F
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccVertex3F] #GLfloat x

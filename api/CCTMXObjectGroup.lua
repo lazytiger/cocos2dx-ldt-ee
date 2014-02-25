@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCTMXObjectGroup
+-- @type CCTMXObjectGroup
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCTMXObjectGroup] setPositionOffset
@@ -52,39 +53,5 @@
 -- @param self
 -- @param #char objectName
 -- @return CCDictionary#CCDictionary
-
---------------------------------
--- @function [parent=#CCTMXObjectGroup] release
--- @param self
-
---------------------------------
--- @function [parent=#CCTMXObjectGroup] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCTMXObjectGroup] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCTMXObjectGroup] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCTMXObjectGroup] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCTMXObjectGroup] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCTMXObjectGroup] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

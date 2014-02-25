@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCActionManager
+-- @type CCActionManager
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCActionManager] addAction
@@ -60,39 +61,5 @@
 -- @function [parent=#CCActionManager] resumeTargets
 -- @param self
 -- @param CCSet#CCSet targetsToResume
-
---------------------------------
--- @function [parent=#CCActionManager] release
--- @param self
-
---------------------------------
--- @function [parent=#CCActionManager] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCActionManager] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCActionManager] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCActionManager] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCActionManager] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCActionManager] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

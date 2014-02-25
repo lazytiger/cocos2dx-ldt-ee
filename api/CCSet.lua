@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCSet
+-- @type CCSet
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCSet] copy
@@ -33,40 +34,6 @@
 
 --------------------------------
 -- @function [parent=#CCSet] anyObject
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCSet] release
--- @param self
-
---------------------------------
--- @function [parent=#CCSet] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCSet] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCSet] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCSet] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCSet] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCSet] autorelease
 -- @param self
 -- @return CCObject#CCObject
 

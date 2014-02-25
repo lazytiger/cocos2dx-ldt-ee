@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCAffineTransform
+-- @type CCAffineTransform
+-- @extends #
 
 --------------------------------
 -- @field [parent=#CCAffineTransform] #float a

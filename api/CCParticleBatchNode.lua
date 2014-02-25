@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCParticleBatchNode
+-- @type CCParticleBatchNode
+-- @extends CCTextureProtocol#CCTextureProtocol
 
 --------------------------------
 -- @function [parent=#CCParticleBatchNode] addChild

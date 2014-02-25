@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCControlColourPicker
+-- @type CCControlColourPicker
+-- @extends CCControl#CCControl
 
 --------------------------------
 -- @function [parent=#CCControlColourPicker] setColor

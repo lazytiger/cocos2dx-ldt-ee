@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCArray
+-- @type CCArray
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCArray] create
@@ -152,39 +153,5 @@
 -- @param #int uIndex
 -- @param CCObject#CCObject pObject
 -- @param #bool bReleaseObject
-
---------------------------------
--- @function [parent=#CCArray] release
--- @param self
-
---------------------------------
--- @function [parent=#CCArray] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCArray] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCArray] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCArray] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCArray] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCArray] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

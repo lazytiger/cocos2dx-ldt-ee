@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCCamera
+-- @type CCCamera
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCCamera] init
@@ -74,39 +75,5 @@
 -- @function [parent=#CCCamera] getZEye
 -- @param self
 -- @return #float
-
---------------------------------
--- @function [parent=#CCCamera] release
--- @param self
-
---------------------------------
--- @function [parent=#CCCamera] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCCamera] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCCamera] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCCamera] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCCamera] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCCamera] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

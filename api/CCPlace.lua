@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCPlace
+-- @type CCPlace
+-- @extends //<NSCopying>#//<NSCopying>
 
 --------------------------------
 -- @function [parent=#CCPlace] create

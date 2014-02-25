@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccTexParams
+-- @type ccTexParams
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccTexParams] #GLuint minFilter

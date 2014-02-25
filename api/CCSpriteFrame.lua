@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCSpriteFrame
+-- @type CCSpriteFrame
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCSpriteFrame] getRectInPixels
@@ -114,39 +115,5 @@
 -- @param CCTexture2D#CCTexture2D pobTexture
 -- @param CCRect#CCRect rect
 -- @return #CCSpriteFrame
-
---------------------------------
--- @function [parent=#CCSpriteFrame] release
--- @param self
-
---------------------------------
--- @function [parent=#CCSpriteFrame] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCSpriteFrame] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCSpriteFrame] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCSpriteFrame] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCSpriteFrame] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCSpriteFrame] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

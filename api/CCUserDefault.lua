@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCUserDefault
+-- @type CCUserDefault
+-- @extends #
 
 --------------------------------
 -- @function [parent=#CCUserDefault] getBoolForKey

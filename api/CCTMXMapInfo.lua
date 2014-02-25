@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCTMXMapInfo
+-- @type CCTMXMapInfo
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCTMXMapInfo] setOrientation
@@ -185,39 +186,5 @@
 -- @param #char tmxString
 -- @param #char resourcePath
 -- @return #CCTMXMapInfo
-
---------------------------------
--- @function [parent=#CCTMXMapInfo] release
--- @param self
-
---------------------------------
--- @function [parent=#CCTMXMapInfo] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCTMXMapInfo] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCTMXMapInfo] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCTMXMapInfo] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCTMXMapInfo] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCTMXMapInfo] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

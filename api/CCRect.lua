@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCRect
+-- @type CCRect
+-- @extends #
 
 --------------------------------
 -- @field [parent=#CCRect] #CCPoint origin

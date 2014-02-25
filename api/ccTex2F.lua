@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccTex2F
+-- @type ccTex2F
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccTex2F] #GLfloat u

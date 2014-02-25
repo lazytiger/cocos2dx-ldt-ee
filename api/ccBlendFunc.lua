@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccBlendFunc
+-- @type ccBlendFunc
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccBlendFunc] #GLenum src

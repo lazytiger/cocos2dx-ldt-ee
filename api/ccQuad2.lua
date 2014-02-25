@@ -1,5 +1,6 @@
 --------------------------------
--- @module ccQuad2
+-- @type ccQuad2
+-- @extends #
 
 --------------------------------
 -- @field [parent=#ccQuad2] #ccVertex2F tl

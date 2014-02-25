@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCControlButton
+-- @type CCControlButton
+-- @extends CCControl#CCControl
 
 --------------------------------
 -- @function [parent=#CCControlButton] needsLayout

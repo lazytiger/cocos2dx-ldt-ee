@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCSize
+-- @type CCSize
+-- @extends #
 
 --------------------------------
 -- @field [parent=#CCSize] #float width

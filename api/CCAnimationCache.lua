@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCAnimationCache
+-- @type CCAnimationCache
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCAnimationCache] addAnimation
@@ -36,39 +37,5 @@
 -- @function [parent=#CCAnimationCache] addAnimationsWithFile
 -- @param self
 -- @param #char plist
-
---------------------------------
--- @function [parent=#CCAnimationCache] release
--- @param self
-
---------------------------------
--- @function [parent=#CCAnimationCache] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCAnimationCache] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCAnimationCache] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCAnimationCache] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCAnimationCache] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCAnimationCache] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

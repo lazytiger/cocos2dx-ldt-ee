@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCTouch
+-- @type CCTouch
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCTouch] getLocation
@@ -37,39 +38,5 @@
 -- @function [parent=#CCTouch] getID
 -- @param self
 -- @return #int
-
---------------------------------
--- @function [parent=#CCTouch] release
--- @param self
-
---------------------------------
--- @function [parent=#CCTouch] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCTouch] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCTouch] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCTouch] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCTouch] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCTouch] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

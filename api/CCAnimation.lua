@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCAnimation
+-- @type CCAnimation
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCAnimation] create
@@ -97,39 +98,5 @@
 -- @function [parent=#CCAnimation] setLoops
 -- @param self
 -- @param #int uLoops
-
---------------------------------
--- @function [parent=#CCAnimation] release
--- @param self
-
---------------------------------
--- @function [parent=#CCAnimation] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCAnimation] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCAnimation] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCAnimation] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCAnimation] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCAnimation] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCEGLViewProtocol
+-- @type CCEGLViewProtocol
+-- @extends #
 
 --------------------------------
 -- @function [parent=#CCEGLViewProtocol] getFrameSize

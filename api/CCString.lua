@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCString
+-- @type CCString
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCString] intValue
@@ -66,39 +67,5 @@
 -- @param self
 -- @param #char pszFileName
 -- @return #CCString
-
---------------------------------
--- @function [parent=#CCString] release
--- @param self
-
---------------------------------
--- @function [parent=#CCString] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCString] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCString] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCString] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCString] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCString] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

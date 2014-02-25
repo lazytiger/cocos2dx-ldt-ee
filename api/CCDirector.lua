@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCDirector
+-- @type CCDirector
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCDirector] getRunningScene
@@ -166,39 +167,5 @@
 -- @function [parent=#CCDirector] sharedDirector
 -- @param self
 -- @return #CCDirector
-
---------------------------------
--- @function [parent=#CCDirector] release
--- @param self
-
---------------------------------
--- @function [parent=#CCDirector] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCDirector] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCDirector] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCDirector] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCDirector] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCDirector] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil

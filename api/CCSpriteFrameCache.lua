@@ -1,5 +1,6 @@
 --------------------------------
--- @module CCSpriteFrameCache
+-- @type CCSpriteFrameCache
+-- @extends CCObject#CCObject
 
 --------------------------------
 -- @function [parent=#CCSpriteFrameCache] addSpriteFramesWithFile
@@ -61,39 +62,5 @@
 --------------------------------
 -- @function [parent=#CCSpriteFrameCache] purgeSharedSpriteFrameCache
 -- @param self
-
---------------------------------
--- @function [parent=#CCSpriteFrameCache] release
--- @param self
-
---------------------------------
--- @function [parent=#CCSpriteFrameCache] retain
--- @param self
-
---------------------------------
--- @function [parent=#CCSpriteFrameCache] isSingleReference
--- @param self
--- @return #bool
-
---------------------------------
--- @function [parent=#CCSpriteFrameCache] retainCount
--- @param self
--- @return #int
-
---------------------------------
--- @function [parent=#CCSpriteFrameCache] isEqual
--- @param self
--- @param CCObject#CCObject pObject
--- @return #bool
-
---------------------------------
--- @function [parent=#CCSpriteFrameCache] copy
--- @param self
--- @return CCObject#CCObject
-
---------------------------------
--- @function [parent=#CCSpriteFrameCache] autorelease
--- @param self
--- @return CCObject#CCObject
 
 return nil
