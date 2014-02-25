@@ -21,4 +21,6 @@
 
 If you want cocos2dx-2.2.1, just use the packed cocos2dx-2.2.1.zip
 
+20140225. changelog
 
+upgrade to ldt1.2M1, use extends to support inheritance.
